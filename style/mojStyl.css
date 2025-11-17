@@ -6,6 +6,7 @@ body{
     overflow-x: hidden;
 }
 h1{
+    font-weight: bold;
     margin: 0.5vmin;
     font-size: 8vmin;
 }
@@ -18,8 +19,8 @@ li{
 	margin: 0.8vmin;
 }
 a{
+    text-decoration: none;
     font-size: 2.5vmin;
-	color: rgb(0, 217, 255);
 }
 table,td,tr,th{
     margin-left: auto;
@@ -27,12 +28,25 @@ table,td,tr,th{
     text-align: justify;
 	border: solid white 2px;
     padding: 0.45vmin;
-    font-size: 3vmin;
+    font-size: 4vmin;
 	color: rgb(0, 183, 255);
     background-color: rgb(105, 97, 104);
 }
 th{
+    font-weight: bold;
     text-align: center;
     color:rgb(42, 230, 158);
     background-color: rgb(78, 73, 77);
+}
+button{
+    font-weight: 600;
+    margin: 1vmin;
+    font-size: 3vmin;
+    color: white;
+    width: 20vw;
+    height: 10vh;
+    background-color: rgb(78, 73, 77);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 0.6vmin 0.3vmin #5a5956;
 }
